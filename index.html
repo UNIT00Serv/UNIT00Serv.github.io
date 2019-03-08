@@ -1,312 +1,389 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>UNIT00</title>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style/Fuentes.css">
-
+<meta charset="UTF-8">
+<title>Unit-00 |  Fullservice Agency</title>
+<meta name="referrer" content="same-origin">
+<link rel="canonical" href="http://unit00.co/">
+<meta name="viewport" content="width=960">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="website_icon.svg" color="rgb(0,0,0)">
+<meta name="description" content="UNIT-00  | Built integral Services">
+<meta name="keywords" content="UNIT-00   |  Fullservice Agency">
+<link rel="stylesheet" href="css/site.20190307165205.css" type="text/css">
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="css/site.20190307165205-lteIE7.css" type="text/css">
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/site.20190307165205-lteIE8.css" type="text/css">
+<![endif]-->
+<!--[if gte IE 9]>
+<link rel="stylesheet" href="css/site.20190307165205-gteIE9.css" type="text/css">
+<![endif]-->
 </head>
-<body>
-
-
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white w3-text-red">UNIT00</a>
-    <!--  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white"><img src="img/logo_head.png" style: padding:0, margin:0, border:0 </a>-->
-
-    <!-- para el drop veer si jala -->
-    <div class="w3-dropdown-hover">
-    <button class="w3-button w3-hide-small w3-padding-large w3-hover-white">
-      Servicios <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block ">
-      <a href="#Desarrollo" class="w3-bar-item w3-button">Desarrollo de Software</a>
-      <a href="#Aplicaciones" class="w3-bar-item w3-button">Aplicaciones para dispositivos móviles</a>
-      <a href="#Base" class="w3-bar-item w3-button">Base de Datos</a>
-      <a href="#Integración" class="w3-bar-item w3-button">Integración a Plataformas y Aplicaciones Web</a>
-      <a href="#Aprovisionamiento" class="w3-bar-item w3-button">Aprovisionamiento y servicios a Infraestructura de TI</a>
-      <a href="#Capacitación" class="w3-bar-item w3-button">Capacitación, Coaching y Mentoring</a>
-      <a href="#Soporte" class="w3-bar-item w3-button">Soporte y Servicios Administrados</a>
-      <a href="#Comunicación" class="w3-bar-item w3-button">Comunicación Online</a>
-     
-    </div>
-  </div>
-    <a href="pg/somos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">¿Quiénes somos?</a>
-    <a href="pg/contacta.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacto</a>
-    <a href="pg/paquetes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Paquetes</a>
-
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navSmall" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-      <!-- para el drop veer si jala -->
-      <div class="w3-dropdown-hover">
-    <button class="w3-button  w3-padding-large w3-hover-white">
-      Servicios <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block ">
-      <a href="#Desarrollo" class="w3-bar-item w3-button">Desarrollo de Software</a>
-      <a href="#Aplicaciones" class="w3-bar-item w3-button">Aplicaciones para dispositivos móviles</a>
-      <a href="#Base" class="w3-bar-item w3-button">Base de Datos</a>
-      <a href="#Integración" class="w3-bar-item w3-button">Integración a Plataformas y Aplicaciones Web</a>
-      <a href="#Aprovisionamiento" class="w3-bar-item w3-button">Aprovisionamiento y servicios a Infraestructura de TI</a>
-      <a href="#Capacitación" class="w3-bar-item w3-button">Capacitación, Coaching y Mentoring</a>
-      <a href="#Soporte" class="w3-bar-item w3-button">Soporte y Servicios Administrados</a>
-      <a href="#Comunicación" class="w3-bar-item w3-button">Comunicación Online</a>
-      <a href="pg/paquetes.html" class="w3-bar-item w3-button">Paquetes</a>
-    </div>
-  </div>
-    <a href="pg/somos.html" class="w3-bar-item w3-button w3-padding-large">¿Quiénes somos?</a>
-    <a href="pg/contacta.html" class="w3-bar-item w3-button w3-padding-large">Contacto</a>
-  </div>
+<body id="b">
+<div class="v ps s c">
+<div class="v2 ps2 s c2">
+<div class="v2 ps2 s c3">
+<div class="ps2 v s2">
+<div class="v2 ps3 s3 c4">
+<div class="v3 ps4 s4 c5">
+<ul class="menu-dropdown-1 v4 ps4 s4 m" id="m3">
+<li class="v2 ps4 s4 mit">
+<a class="ml" href="#anchor1"><div class="menu-content mcv"><div class="v2 ps4 s5 c6"><div class="v2 ps5 s6 c7"><p class="p f">SERVICIOS</p></div></div></div></a>
+</li>
+</ul>
 </div>
-
-<!-- Header -->
-<header class="w3-container w3-white w3-center" style="padding:100px 16px">
-  <img src="img/logo_front.png">
-</header>
-
-<!-- First Grid -->
-<a id="Desarrollo"></a>
-<div class="w3-row-padding w3-padding-32 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 class= "w3-text-red">Desarrollo de Software</h1>
-      <h5 ALIGN="justify" class="w3-padding-16"><span class="w3-text-red">UNIT00</span> ofrece una amplia gama de servicios de desarrollo para aquellos clientes que buscan una aplicación a la medida de sus necesidades partiendo desde cero.</h5>
-      <h5 ALIGN="justify">Cada desarrollo se realiza bajo mejores prácticas por personal experto con amplia experiencia,
-cumpliendo con estándares de seguridad.</h5>
-<h5>Dentro de las características ofrecidas por <span class="w3-text-red">UNIT00</span> en desarrollo se encuentran:</h5>
-
-    <ul align="justify" class="w3-text-grey">
-    <li >Proyectos de Desarrollo de Software.</li>
-    <li >Requerimientos, análisis y diseño de soluciones, cada una de estas tres
-etapas es desempeñada por personal con amplia experiencia.</li>
-    <li>Desarrolladores por hora.</li>
-    <li >Soporte y Mantenimiento de aplicaciones in-house, permitiendo que el
-cliente tenga la confianza de saber que cuenta con el respaldo de
-personal capacitado y con conocimiento del desarrollo para solucionar
-cualquier incidente que llegara presentarse.</li>
-    <li>Pruebas y Aseguramiento de Calidad, cada uno de los desarrollos pasa
-por distinta pruebas que permitan garantizar al cliente que se entrega un
-producto de calidad.</li>
-    <li>Evaluación de seguridad para Desarrollo de Software (SQL Injection,
-Secure Coding).</li>
-
-    </ul>
-
-    </div>
-
-    <div class="w3-third w3-center">
-      <!-- Aqui poner imagen de Base de datos -->
-      <i class="w3-padding-64 w3-text-red"><img alt="" src="img/DEVICES_process.png"></i>
-    </div>
-  </div>
+<div class="v3 ps6 s7 c8">
+<ul class="menu-dropdown-1 v4 ps4 s7 m" id="m5">
+<li class="v2 ps4 s7 mit">
+<a class="ml" href="nosotros.html"><div class="menu-content mcv"><div class="v2 ps4 s8 c6"><div class="v2 ps5 s9 c7"><p class="p f">NOSOTROS</p></div></div></div></a>
+</li>
+</ul>
 </div>
-
-<!-- Second Grid -->
-<a id="Aplicaciones"></a>
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red w3-margin-right"><img alt="" src="img/DEVICES_APP.png"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1 class = "w3-text-red">Aplicaciones para dispositivos móviles</h1>
-      <h5 ALIGN="justify" class="w3-padding-16">El servicio de desarrollo de aplicaciones móviles permite a las empresas o negocios estar al alcance de los clientes en todo momento siendo visibles en todo tipo de dispositivo móvil.</h5>
-    <h5 ALIGN="justify">El desarrollo de plataformas móviles se realiza bajo mejores prácticas, garantizando calidad y satisfacción.</h5>
-        <ul class="w3-text-grey">
-    <li >iPad / iPhone.</li>
-    <li >Android.</li>
-    <li >Windows Phone.</li>
-    </ul>
-    </div>
-  </div>
+<div class="v3 ps7 s4 c9">
+<ul class="menu-dropdown-1 v4 ps4 s4 m" id="m4">
+<li class="v2 ps4 s4 mit">
+<a class="ml" href="nosotros.html#anchor1"><div class="menu-content mcv"><div class="v2 ps4 s5 c6"><div class="v2 ps5 s6 c7"><p class="p f">SOLUCIONES</p></div></div></div></a>
+</li>
+</ul>
 </div>
-
-<!-- third Grid -->
-<a id="Base"></a>
-<div class="w3-row-padding w3-padding-32 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 class= "w3-text-red">Base de Datos</h1>
-      <h5 ALIGN="justify" class="w3-padding-16"><span class="w3-text-red">UNIT00</span> es consciente de la importancia de la información para el cliente, por ello ofrece servicios acorde a las necesidades presentes en el resguardo y uso de los datos.</h5>
-    <h5 ALIGN="justify" >El servicio enfocado a bases de datos permite obtener la máxima rentabilidad y seguridad de los datos y su proceso para ser transformados en información útil al negocio.</h5>
-        <h5 ALIGN="justify">En caso de no contar con una solución de base de datos <span class="w3-text-red">UNIT00</span>, ofrece el servicio para la creación de esta infraestructura y su adecuada inserción en los procedimientos del cliente.</h5>
-    <h5 ALIGN="justify">Los servicios especializados en bases de datos incluyen:</h5>
-        <ul align="justify" class="w3-text-grey">
-    <li >Instalaciones de DRP y respaldo, lo cual permitirá tener la certeza de contar con un método para mantener los datos del negocio disponibles en caso de incidentes como pérdidas o secuestro de información, tenemos las mejores prácticas para el cuidado de tus datos respaldados por ingenieros con más de 10 años de experiencia en IT.</li>
-    <li >Seguridad, realizamos assessments de seguridad e implementamos las mejores prácticas, disminuyendo la posibilidad de sufrir perdida de información, disponibilidad de los datos o servicios en bases de Datos.</li>
-    <li >Performance Tuning, con la experiencia nos permiten ofrecer servicios de mejora en el desempeño con garantía de satisfacción.</li>
-    <li>Migración o Instalación de Bases de datos.</li>
-    <li>Health Checks, podemos realizar una revisión de tu ambiente para optimizar el uso de recursos.</li>
-    </ul>
-
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class="w3-padding-64 w3-text-red"><img alt="" src="img/DEVICES_DATA BASE.png"></i>
-    </div>
-  </div>
 </div>
-
-<!-- 4 Grid -->
-<a id="Integración"></a>
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red w3-margin-right"><img alt="" src="img/DEVICES_SERVICES.png"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1 class="w3-text-red">Integración a Plataformas y Aplicaciones Web</h1>
-      <h5 ALIGN="justify" class="w3-padding-16"><span class="w3-text-red">UNIT00</span> ofrece el servicio de integración de la empresa a aplicativos en el mercado o desarrolladas por el cliente que permitan optimizar las tareas administrativas y operativas en la organización de forma integral.</h5>
-    <h5 ALIGN="justify">Los servicios de integración permiten se complemente con el desarrollo de software, ampliando de forma integral las posibilidades y beneficios de la integración. Dentro de los servicios que integran plataformas y aplicaciones web se encuentran:</h5>
-       <ul align="justify" class="w3-text-grey">
-    <li>Migraciones o Instalación de Aplicaciones.</li>
-    <li>Integración de Aplicaciones y Jobs Scheduling.</li>
-    <li>Automatización inteligente de Procesos para el Negocio.</li>
-    <li>Data Management Transaccionales y de Análisis.</li>
-    <li>Data Warehouse, Business Intelligence.</li>
-    <li>Big Data.</li>
-
-    </ul>
-    </div>
-
-  </div>
 </div>
-
-
-
-<!-- Fifth Grid -->
-<a id="Aprovisionamiento"></a>
-<div class="w3-row-padding w3-padding-32 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 class= "w3-text-red">Aprovisionamiento y servicios a Infraestructura de TI</h1>
-      <h5 class="w3-padding-32">Enfocado a clientes que buscan obtener el mayor rendimiento de las diferentes herramientas TI disponibles, tanto propias como remotas con las cuales pueden trabajar para beneficio de su negocio.</h5>
-    <h5>Ya sea que la empresa se enfoque en trabajo distribuido o centralizado <span class="w3-text-red">UNIT00</span> ofrece los siguientes servicios en infraestructura para garantizar el óptimo funcionamiento del negocio:</h5>
-    <ul align="justify" class="w3-text-grey">
-    <li>Servicios de Nube.</li>
-    <li>Validación y Diseño de Arquitectura.</li>
-    <li>Consolidación y Virtualización, trabajamos con Arquitectos de Hardware para optimizar el uso de Recursos y Licencias.</li>
-    <li>Alta Disponibilidad.</li>
-    <li>Análisis de Rendimiento (Infraestructura, Middleware, Aplicativos).</li>
-    <li>Automatización de Procesos.</li>
-    <li>Sistemas operativos.</li>
-    <li>Diseño e implementación de redes de datos y comunicación (cableado y WIFI).</li>
-    </ul>
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red"><img alt="" src="img/DEVICES_building.png"></i>
-    </div>
-  </div>
 </div>
-
-<!-- 6 Grid -->
-<a id="Capacitación"></a>
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red w3-margin-right"><img alt="" src="img/DEVICES_COACHING.png"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1 class="w3-text-red">Capacitación, Coaching y Mentoring</h1>
-      <h5 align="justify" class="w3-padding-32"><span class="w3-text-red">UNIT00</span> reconoce la necesidad de contar con una cultura organizacional que permita una correcta integración entre el personal y los servicios de TI, por lo que se ofrecen diferentes servicios de capacitación, orientación y acompañamiento en este ámbito.</h5>
-    <ul align="justify" class="w3-text-grey">
-    <li>Capacitación, coaching y mentoring del personal para procesos de software, metodologías de desarrollo, mejores prácticas, seguridad y manejo de la información.</li>
-    <li>Implantación de procesos de manera autónoma a través del propio personal de la empresa.</li>
-    <li>Seguimiento, evaluación y mentoring para asegurar la eficiencia de los procesos implantados.</li>
-    </ul>
-
-    </div>
-  </div>
 </div>
-
-<!-- seventh Grid -->
-<a id="Soporte"></a>
-<div class="w3-row-padding w3-padding-32 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 class= "w3-text-red">Soporte y Servicios Administrados</h1>
-      <h5 align="justify" class="w3-padding-16">Pensado para las empresas que no cuentan con áreas especializadas para mantener el correcto funcionamiento de sus servicios de TI y atención a fallas, <span class="w3-text-red">UNIT00</span>  ofrece el servicio de Soporte Técnico y Servicios Administrados, brindando una solución para mantener en óptimas condiciones la infraestructura del cliente, así como proveer atención a incidentes técnicos en tiempo cortos brindando soluciones a la medida.</h5>
-    <ul align="justify" class="w3-text-grey">
-    <li>Atención a fallas</li>
-    <li>Soporte y administración en las modalidades 8x5 y 10x6</li>
-    <li>Mantenimiento proactivo y performance, permitiendo conocer el comportamiento y la salud de sus recursos.</li>
-    </ul>
-    </div>
-
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red"><img alt="" src="img/DEVICES_Support.png"></i>
-    </div>
-  </div>
+<div class="ps8 v s2">
+<div class="v2 ps9 s10 c10">
+<a class="a" href="#"><picture class="i2"><source srcset="images/unit-02-105.png 1x, images/unit-02-210.png 2x"><img src="images/unit-02-105.png" alt="" class="js i"></picture></a>
 </div>
-
-<!-- 8 Grid -->
-<a id="Comunicación"></a>
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class=" w3-padding-64 w3-text-red w3-margin-right"><img alt="" src="img/DEVICES_MULTIMEDIA.png"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1 class="w3-text-red">Comunicación Online</h1>
-      <h5 class="w3-padding-16">El posicionamiento de las marcas y negocios en las diferentes redes sociales y en la web es de vital importancia para el crecimiento de empresas que buscan aumentar su alcance en el mercado, UNIT00 ofrece servicios profesionales en capacitación y manejo de medios electrónicos para colocar a las empresas en puntos estratégicos.</h5>
-    <h5>Dentro de los servicios que se ofrecen se encuentran:</h5>
-       <ul align="justify" class="w3-text-grey">
-    <li>Ayuda a las marcas para escoger los canales adecuados en internet buscando acercarse al mercado y consumidores potenciales.</li>
-    <li>Apoyo a las empresas en posicionamiento de sus marcas y servicios a través de una estrategia de comunicación y posicionamiento online.</li>
-    <li>Manejo de campañas en redes sociales, midiendo impacto y alcance.</li>
-    <li>Generación de procesos y manuales de manejos de crisis en redes sociales.</li>
-    </ul>
-    </div>
-  </div>
 </div>
-
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-16">
-    <p >UNIT00 se reserva sus servicios en:</p>
-
-      <p>Cualquier medio de comunicación que sea ilegal o inapropiado.</p>
-    <p>Cualquier medio que contenga virus o programa hostil, excepto en asignaciones de seguridad informática.</p>
-    <p>Cualquier medio de comunicación que constituye acoso, racismo, violencia, obscenidad, spam o intención de hacer daño.</p>
-    <p>Cualquier medio de comunicación que constituye un delito penal, viola la privacidad o derechos de autor.</p>
-
-
-
 </div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
-  <div class="w3-xlarge w3-padding-32">
-<a href="https://www.facebook.com/unit00co/" target= "_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/Unit00co" target= "_blank"> <i class="fa fa-twitter w3-hover-opacity"></i> </a>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
-
-</footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navSmall");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
+<div class="fbk v2 ps10 s11 c11 fx" data-fbk="fx"></div>
+<div class="ps11 v s12">
+<div class="v2 ps12 s13 c12">
+<h1 class="p f2">UNIT-<span class="f3">00</span></h1>
+<h1 class="p f4">Lo hacemos posible</h1>
+</div>
+</div>
+<div class="fbk v2 ps13 s14 c13 fx2" data-fbk="fx2"></div>
+<a name="anchor1" class="v ps14 s15">
+</a>
+<div class="fbk v2 ps15 s16 c14 fx3" data-fbk="fx3">
+<div class="ps16 v s2">
+<div class="v2 ps17 s17 c4">
+<div class="v2 ps4 s18 w">
+<div class="v2 ps18 s19 c15">
+<h2 class="p2 f5">Desarrollo de Software</h2>
+</div>
+<div class="v2 ps19 s20 c16">
+<p class="p3 f6">UNIT_00 <span class="f7">ofrece una amplia gama de servicios de desarrollo para aquellos clientes que buscan una aplicaci&oacute;n a la medida de sus necesidades partiendo desde cero.</span></p>
+<p class="p3 f7">Cada desarrollo se realiza bajo mejores pr&aacute;cticas por personal experto con amplia experiencia, cumpliendo con est&aacute;ndares de seguridad.</p>
+<p class="p3 f7">Dentro de las caracter&iacute;sticas ofrecidas por <span class="f6">UNIT-00</span> en desarrollo se encuentran:</p>
+</div>
+<div class="v2 ps20 s21 c17">
+<ul class="ps21">
+<li class="p4 f7">&bull; <span class="f7">Requerimientos, an&aacute;lisis y dise&ntilde;o de soluciones, cada una de estas tres etapas es desempe&ntilde;ada por personal con amplia experiencia.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Desarrolladores por hora.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Soporte y Mantenimiento de aplicaciones in-house, permitiendo que el cliente tenga la confianza de saber que cuenta con el respaldo de personal capacitado y con conocimiento del desarrollo para solucionar cualquier incidente que llegara presentarse.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Pruebas y Aseguramiento de Calidad, cada uno de los desarrollos pasa por distinta pruebas que permitan garantizar al cliente que se entrega un producto de calidad.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Evaluaci&oacute;n de seguridad para Desarrollo de Software </span><span class="f6">(SQL Injection, Secure Coding).</span></li>
+</ul>
+</div>
+</div>
+<div class="v2 ps22 s22 c18">
+<h3 class="p5 f8">Production &amp; Development</h3>
+<h3 class="p5 f8">On-site execution</h3>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor2" class="v ps23 s15">
+</a>
+<div class="fbk v2 ps2 s23 c19 fx4" data-fbk="fx4">
+<div class="fbk v2 ps24 s24 c20 fx5" data-fbk="fx5">
+<div class="ps25 v s2">
+<div class="v2 ps26 s25 c21">
+<h3 class="p5 f9">iPad / iPhone</h3>
+<h3 class="p5 f9">Android</h3>
+<h3 class="p5 f9">Windows Phone</h3>
+</div>
+<div class="v2 ps27 s26 c4">
+<div class="v3 ps4 s27 c22">
+<ul class="menu-dropdown v4 ps4 s27 m" id="m1">
+<li class="v2 ps4 s27 mit">
+<a class="ml" href="#anchor1"><div class="menu-content mcv"><div class="v2 ps4 s28 c23"><div class="v2 ps4 s28 c7"><p class="p f10">&lt;</p></div></div></div></a>
+</li>
+</ul>
+</div>
+<div class="v3 ps28 s27 c24">
+<ul class="menu-dropdown v4 ps4 s27 m" id="m2">
+<li class="v2 ps4 s27 mit">
+<a class="ml" href="#anchor3"><div class="menu-content mcv"><div class="v2 ps4 s28 c23"><div class="v2 ps4 s28 c7"><p class="p f10">&gt;</p></div></div></div></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ps29 v s12">
+<div class="v2 ps17 s29 c4">
+<div class="v2 ps4 s29 w">
+<div class="v2 ps18 s19 c25">
+<h2 class="p2 f5">Aplicaciones para dispositivos m&oacute;viles</h2>
+</div>
+<div class="v2 ps19 s30 c26">
+<p class="p3 f7">El servicio de desarrollo de aplicaciones m&oacute;viles permite a las empresas o negocios estar al alcance de los clientes en todo momento siendo visibles en todo tipo de dispositivo m&oacute;vil.</p>
+<p class="p3 f7">El desarrollo de plataformas m&oacute;viles se realiza bajo mejores pr&aacute;cticas, garantizando calidad y satisfacci&oacute;n.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="fbk v2 ps30 s31 c27 fx6" data-fbk="fx6">
+<div class="fbk v2 ps31 s32 c28 fx7" data-fbk="fx7">
+<div class="ps32 v s2">
+<div class="v2 ps17 s33 c4">
+<div class="v2 ps4 s34 w">
+<div class="v2 ps33 s35 c29">
+<h2 class="p2 f5">Base de Datos</h2>
+</div>
+<div class="v2 ps23 s36 c30">
+<p class="p3 f6">UNIT-00<span class="f7"> es consciente de la importancia de la informaci&oacute;n para el cliente, por ello ofrece servicios que permiten obtener la m&aacute;xima rentabilidad y seguridad de los datos y su proceso para ser transformados en informaci&oacute;n &uacute;til al negocio.</span></p>
+<p class="p3 f7">En caso de no contar con una soluci&oacute;n de base de datos, ofrecemos servicio para la creaci&oacute;n de esta infraestructura y su adecuada inserci&oacute;n en los procedimientos del cliente.</p>
+</div>
+</div>
+<div class="v2 ps34 s37 c31">
+<h3 class="p5 f9">Tailor-made <span class="f9">work</span></h3>
+</div>
+</div>
+<div class="v2 ps35 s38 c32">
+<ul class="ps21">
+<li class="p4 f7">&bull; <span class="f7">Instalaciones de DRP y respaldo, lo cual permitir&aacute; tener la certeza de realizar assessments de seguridad, para mantener los datos del negocio disponibles en caso de incidentes como p&eacute;rdidas o secuestro de informaci&oacute;n, respaldados por ingenieros&nbsp; con m&aacute;s de 10 a&ntilde;os de experiencia en IT.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Performance Tuning, con la experiencia nos permiten ofrecer servicios de mejora en el desempe&ntilde;o con garant&iacute;a de satisfacci&oacute;n.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Migraci&oacute;n o Instalaci&oacute;n de Bases de datos.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Health Checks, podemos realizar una revisi&oacute;n de tu ambiente para optimizar el uso de recursos.</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor3" class="v ps36 s15">
+</a>
+<div class="fbk v2 ps37 s39 c33 fx8" data-fbk="fx8">
+<div class="fbk v2 ps38 s40 c34 fx9" data-fbk="fx9">
+<div class="ps39 v s2">
+<div class="v2 ps40 s41 c4">
+<div class="v2 ps4 s42 c35">
+<h2 class="p2 f5">Integraci&oacute;n a Plataformas y Aplicaciones Web</h2>
+</div>
+<div class="v2 ps41 s43 c36">
+<h3 class="p5 f9">Data management</h3>
+<h3 class="p5 f9">Data Warehouse, business Intelligence</h3>
+</div>
+</div>
+<div class="v2 ps42 s44 c37">
+<p class="p3 f6">UNIT-00<span class="f7"> ofrece el servicio de integraci&oacute;n de la empresa a aplicativos en el mercado o desarrolladas por el cliente que permitan optimizar las tareas administrativas y operativas en la organizaci&oacute;n de forma integral.</span></p>
+<p class="p3 f7">Los servicios de integraci&oacute;n permiten se complemente con el desarrollo de software, ampliando de forma integral las posibilidades y beneficios de la integraci&oacute;n. Dentro de los servicios que integran plataformas y aplicaciones web se encuentran:</p>
+</div>
+<div class="v2 ps43 s45 c38">
+<ul class="ps21">
+<li class="p4 f7">&bull; <span class="f7">Migraciones o Instalaci&oacute;n de Aplicaciones.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Integraci&oacute;n de Aplicaciones y Jobs Scheduling.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Automatizaci&oacute;n inteligente de Procesos para el Negocio.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Data Management Transaccionales y de An&aacute;lisis.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Data Warehouse, Business Intelligence.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Big Data.</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor4" class="v ps44 s15">
+</a>
+<div class="fbk v2 ps45 s46 c39 fx10" data-fbk="fx10">
+<div class="fbk v2 ps46 s47 c40 fx11" data-fbk="fx11">
+<div class="ps47 v s2">
+<div class="v2 ps9 s48 c4">
+<div class="v2 ps4 s19 c41">
+<h2 class="p2 f5">Aprovisionamiento y servicios a Infraestructura de TI</h2>
+</div>
+<div class="v2 ps40 s25 c42">
+<h3 class="p5 f9">Building Quality</h3>
+</div>
+</div>
+<div class="v2 ps48 s49 c43">
+<p class="p3 f7">Enfocado a clientes que buscan obtener el mayor rendimiento de las diferentes herramientas TI disponibles, tanto propias como remotas con las cuales pueden trabajar para beneficio de su negocio.</p>
+<p class="p3 f7">Ya sea que la empresa se enfoque en trabajo distribuido o centralizado <span class="f6">UNIT-00 </span>ofrece los siguientes servicios en infraestructura para garantizar el &oacute;ptimo funcionamiento del negocio:</p>
+</div>
+<div class="v2 ps49 s50 c44">
+<ul class="ps21">
+<li class="p4 f7">&bull; <span class="f7">Servicios de Nube.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Validaci&oacute;n y Dise&ntilde;o de Arquitectura.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Consolidaci&oacute;n y Virtualizaci&oacute;n, trabajamos con Arquitectos de Hardware para optimizar el uso de Recursos y Licencias.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Alta Disponibilidad.</span></li>
+<li class="p4 f7">&bull; <span class="f7">An&aacute;lisis de Rendimiento (Infraestructura, Middleware, Aplicativos).</span></li>
+<li class="p4 f7">&bull; <span class="f7">Automatizaci&oacute;n de Procesos.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Sistemas operativos.</span></li>
+<li class="p4 f7">&bull; <span class="f7">Dise&ntilde;o e implementaci&oacute;n de redes de datos y comunicaci&oacute;n (cableado y WIFI).</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor5" class="v ps50 s15">
+</a>
+<div class="fbk v2 ps51 s51 c45 fx12" data-fbk="fx12"></div>
+<a name="anchor6" class="v ps52 s15">
+</a>
+<div class="fbk v2 ps53 s52 c46 fx13" data-fbk="fx13"></div>
+<div class="v2 ps54 s53 c47">
+<div class="ps55 v s2">
+<div class="v2 ps17 s54 c4">
+<div class="v2 ps4 s55 w">
+<div class="v2 ps4 s56 c48">
+<h2 class="p2 f11">Capacitaci&oacute;n, Coaching y Mentoring</h2>
+</div>
+<div class="v2 ps56 s57 c49">
+<p class="p3 f12">UNIT00 reconoce la necesidad de contar con una cultura organizacional que permita una correcta integraci&oacute;n entre el personal y los servicios de TI, por lo que se ofrecen diferentes servicios de capacitaci&oacute;n, orientaci&oacute;n y acompa&ntilde;amiento en este &aacute;mbito.</p>
+</div>
+</div>
+<div class="v2 ps57 s25 c50">
+<h3 class="p5 f8">implementation</h3>
+<h3 class="p5 f8">process</h3>
+</div>
+</div>
+<div class="v2 ps17 s58 c51">
+<ul class="ps21">
+<li class="p4 f12">&bull; <span class="f12">Capacitaci&oacute;n, coaching y mentoring del personal para procesos de software, metodolog&iacute;as de desarrollo, mejores pr&aacute;cticas, seguridad y manejo de la informaci&oacute;n.</span></li>
+<li class="p4 f12">&bull; <span class="f12">Implantaci&oacute;n de procesos de manera aut&oacute;noma a trav&eacute;s del propio personal de la empresa.</span></li>
+<li class="p4 f12">&bull; <span class="f12">Seguimiento, evaluaci&oacute;n y mentoring para asegurar la eficiencia de los procesos implantados.</span></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fbk v2 ps2 s59 c52 fx14" data-fbk="fx14">
+<div class="fbk v2 ps58 s60 c53 fx15" data-fbk="fx15">
+<div class="ps59 v s2">
+<div class="v2 ps60 s61 c4">
+<div class="v2 ps4 s62 c54">
+<h2 class="p2 f5">Soporte y Servicios Administrados</h2>
+</div>
+<div class="v2 ps61 s37 c55">
+<h3 class="p5 f9">High Performance</h3>
+</div>
+</div>
+<div class="v2 ps17 s63 c56">
+<p class="p3 f7">Soporte y Servicios Administrados</p>
+<p class="p3 f7">Pensado para las empresas que no cuentan con &aacute;reas especializadas para mantener el correcto funcionamiento de sus servicios de TI y atenci&oacute;n a fallas, UNIT00 ofrece el servicio de Soporte T&eacute;cnico y Servicios Administrados, brindando una soluci&oacute;n para mantener en &oacute;ptimas condiciones la infraestructura del cliente, as&iacute; como proveer atenci&oacute;n a incidentes t&eacute;cnicos en tiempo cortos brindando soluciones a la medida.</p>
+</div>
+<div class="v2 ps17 s64 c57">
+<ul class="ps21">
+<li class="p4 f7">&bull; <span class="f7">Atenci&oacute;n a fallas</span></li>
+<li class="p4 f7">&bull; <span class="f7">Soporte y administraci&oacute;n en las modalidades 8x5 y 10x6</span></li>
+<li class="p4 f7">&bull; <span class="f7">Mantenimiento proactivo y performance, permitiendo conocer el comportamiento y la salud de sus recursos.</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor7" class="v ps62 s15">
+</a>
+<div class="fbk v2 ps63 s65 c58 fx16" data-fbk="fx16">
+<div class="fbk v2 ps64 s66 c59 fx17" data-fbk="fx17"></div>
+<div class="v2 ps65 s67 c60">
+<div class="ps66 v s2">
+<div class="v2 ps40 s41 c4">
+<div class="v2 ps4 s42 c61">
+<h2 class="p2 f11">&#xfeff;&#x200b;</h2>
+<h2 class="p2 f11">Comunicaci&oacute;n Online</h2>
+</div>
+<div class="v2 ps41 s43 c62">
+<h3 class="p5 f8">Data management</h3>
+<h3 class="p5 f8">Data Warehouse, Business Intelligence</h3>
+</div>
+</div>
+<div class="v2 ps42 s68 c63">
+<p class="p3 f12">El posicionamiento de las marcas y negocios en las diferentes redes sociales y en la web es de vital importancia para el crecimiento de empresas que buscan aumentar su alcance en el mercado, <span class="f13">UNIT-00 </span>ofrece servicios profesionales en capacitaci&oacute;n y manejo de medios electr&oacute;nicos para colocar a las empresas en puntos estrat&eacute;gicos.</p>
+</div>
+<div class="v2 ps67 s69 c64">
+<p class="p3 f13">Dentro de los servicios que se ofrecen se encuentran:</p>
+<ul class="ps21">
+<li class="p4 f12">&bull; <span class="f12">Ayuda a las marcas para escoger los canales adecuados en internet buscando acercarse al mercado y consumidores potenciales.</span></li>
+<li class="p4 f12">&bull; <span class="f12">Apoyo a las empresas en posicionamiento de sus marcas y servicios a trav&eacute;s de una estrategia de comunicaci&oacute;n y posicionamiento online.</span></li>
+<li class="p4 f12">&bull; <span class="f12">Manejo de campa&ntilde;as en redes sociales, midiendo impacto y alcance.</span></li>
+<li class="p4 f12">&bull; <span class="f12">Generaci&oacute;n de procesos y manuales de manejos de crisis en redes sociales.</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a name="anchor8" class="v ps68 s15">
+</a>
+<div class="v2 ps69 s70 c65">
+<div class="ps70 v s2">
+<div class="v2 ps71 s71 c4">
+<div class="v2 ps4 s72 c66">
+<p class="p f14">&iquest;Requiere informaci&oacute;n sobre nuestros servicios o realizar una cotizaci&oacute;n?</p>
+</div>
+<div class="v2 ps72 s73 c67">
+<div class="v2 ps4 s73 c68">
+<div class="v2 ps4 s74 c7">
+<img src="images/__money-copy-5.svg" alt="" class="i3">
+</div>
+<div class="v2 ps73 s75 c7">
+<p class="p5 f15">Env&iacute;anos un E- mail</p>
+<p class="p5 f15">contacto@unit00.co</p>
+</div>
+</div>
+</div>
+<div class="v2 ps74 s76 c69">
+<a class="a" href="https://www.facebook.com/unit00co/"><picture class="i5"><source srcset="images/net-02-48.png 1x, images/net-02-96.png 2x"><img src="images/net-02-48.png" alt="" class="js2 i4"></picture></a>
+</div>
+<div class="v2 ps75 s76 c70">
+<a class="a" href="https://twitter.com/Unit00co"><picture class="i5"><source srcset="images/net-01-48.png 1x, images/net-01-96.png 2x"><img src="images/net-01-48.png" alt="" class="js3 i4"></picture></a>
+</div>
+<div class="v2 ps76 s76 c71">
+<picture class="i5">
+<source srcset="images/net-03-48.png 1x, images/net-03-96.png 2x">
+<img src="images/net-03-48.png" alt="" class="js4 i4">
+</picture>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps2 s77 c72">
+<div class="ps77 v s2">
+<div class="v2 ps78 s78 c4">
+<div class="v2 ps4 s78 w">
+<div class="v2 ps79 s79 c73">
+<img src="images/dante-w-01.svg" alt="" class="i6">
+</div>
+<div class="v2 ps80 s80 c74">
+<p class="p f16"><a target="_blank" href="http://unit00.co/" rel="noopener">Powered by UNIT-00, design by</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ps81 v s12">
+<div class="v2 ps82 s81 c75">
+<p class="p3 f17">UNIT00 se reserva sus servicios cualquier medio de comunicaci&oacute;n que sea ilegal o inapropiado, que constituya un delito penal, viola la privacidad o derechos de autor, inste al acoso, racismo, violencia, obscenidad, spam o intenci&oacute;n de hacer da&ntilde;o, que contenga virus o programa hostil, excepto en asignaciones de seguridad inform&aacute;tica.</p>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jqueryui.js"></script>
+<script type="text/javascript" src="js/fixed.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/menu-dropdown-animations.min.js"></script>
+<script type="text/javascript" src="js/menu-dropdown.20190307165205.js"></script>
+<script type="text/javascript" src="js/menu-dropdown-1.20190307165205.js"></script>
+<script type="text/javascript" src="js/stickyfill.js"></script>
+<script type="text/javascript" src="js/index.20190307165205.js"></script>
+<script type="text/javascript">
+var ver=RegExp(/Mozilla\/5\.0 \(Linux; .; Android ([\d.]+)/).exec(navigator.userAgent);if(ver&&parseFloat(ver[1])<5){document.getElementsByTagName('body')[0].className+=' whitespacefix';}
 </script>
-
-
 </body>
 </html>
